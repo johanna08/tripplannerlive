@@ -162,8 +162,8 @@ h3 {
 .itinerary-item {
   margin: 8px 0;
   > * {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
   }
   > .title {
     width: calc(100% - 24px);
